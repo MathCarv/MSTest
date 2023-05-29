@@ -10,13 +10,17 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de 
 # Configuração do Projeto
 
 > Clone o repositório do projeto MSTest para o seu ambiente local.
+
 > Abra o Visual Studio ou Visual Studio Code.
+
 > No Visual Studio:
    * Selecione "Open a project or solution" (Abrir um projeto ou solução) e navegue até o diretório onde você clonou o repositório.
    * Selecione o arquivo de solução (extensão .sln) e clique em "Open" (Abrir).
+
 > No Visual Studio Code:
    * Abra o diretório do projeto clonado através do comando "File" (Arquivo) -> "Open Folder" (Abrir Pasta).
    * Selecione o diretório clonado e clique em "Open" (Abrir).
+
 > Aguarde até que o Visual Studio ou Visual Studio Code carregue o projeto e suas dependências.
 
 # Executando os Testes
@@ -27,6 +31,7 @@ Para executar os testes:
 > No Visual Studio:
    • No Solution Explorer (Explorador de Soluções), clique com o botão direito do mouse no projeto MSTest.Tests e selecione "Run Tests" (Executar Testes).
    • Os testes serão executados e o resultado será exibido na janela "Test Explorer" (Explorador de Testes).
+ 
 > No Visual Studio Code:
    • Abra um terminal integrado no Visual Studio Code clicando em "View" (Exibir) -> "Terminal" (Terminal).
    • No terminal, navegue até o diretório do projeto MSTest.Tests.
@@ -50,9 +55,13 @@ Para adicionar novos testes ao projeto:
 Se você deseja contribuir para o projeto MSTest, siga estas etapas:
 
 > Crie um fork do repositório em sua conta do GitHub.
+
 > Clone o fork do repositório para o seu ambiente local.
+
 > Faça as alterações desejadas e adicione novos recursos.
+
 > Commit e push as alterações para o seu fork.
+
 > Abra um pull request no repositório original para revisão.
 
 # Conclusão
