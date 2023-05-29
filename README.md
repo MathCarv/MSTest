@@ -7,7 +7,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de 
 • Visual Studio (versão 2012 ou superior) ou Visual Studio Code.
 • .NET Framework (versão 4.5 ou superior).
 
-#Configuração do Projeto
+# Configuração do Projeto
 
 1 - Clone o repositório do projeto MSTest para o seu ambiente local.
 2 - Abra o Visual Studio ou Visual Studio Code.
@@ -19,7 +19,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de 
    • Selecione o diretório clonado e clique em "Open" (Abrir).
 5 - Aguarde até que o Visual Studio ou Visual Studio Code carregue o projeto e suas dependências.
 
-#Executando os Testes
+# Executando os Testes
 O projeto MSTest contém uma classe de exemplo "Calculadora" com métodos simples de adição e subtração, juntamente com testes unitários correspondentes escritos usando o MSTest.
 
 Para executar os testes:
@@ -33,7 +33,7 @@ Para executar os testes:
    • Execute o seguinte comando: dotnet test
    • Os testes serão executados e o resultado será exibido no terminal.
 
-#Adicionando Novos Testes
+# Adicionando Novos Testes
 Para adicionar novos testes ao projeto:
 
 1 - No Solution Explorer (Explorador de Soluções), clique com o botão direito do mouse no projeto MSTest.Tests.
@@ -42,7 +42,7 @@ Para adicionar novos testes ao projeto:
 4 - Dê um nome ao novo arquivo de teste e clique em "Add" (Adicionar).
 5 - Escreva seus testes no novo arquivo de teste usando as estruturas e asserções fornecidas pelo MSTest.
 
-#Contribuindo
+# Contribuindo
 Se você deseja contribuir para o projeto MSTest, siga estas etapas:
 
 1 - Crie um fork do repositório em sua conta do GitHub.
@@ -51,7 +51,7 @@ Se você deseja contribuir para o projeto MSTest, siga estas etapas:
 4 - Commit e push as alterações para o seu fork.
 5 - Abra um pull request no repositório original para revisão.
 
-#Conclusão
+# Conclusão
 
 Este é apenas um exemplo básico de como usar o MSTest para escrever e executar testes unitários em um projeto C#. Sinta-se à vontade para explorar mais recursos do MSTest e personalizar o projeto de acordo com suas necessidades.
 
