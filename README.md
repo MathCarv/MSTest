@@ -33,7 +33,7 @@ Para executar os testes:
 
 > No Visual Studio Code:
    * Abra um terminal integrado no Visual Studio Code clicando em "View" (Exibir) -> "Terminal" (Terminal).
-   * No terminal, navegue até o diretório do projeto CalculatorApp.
+   * No terminal, navegue até o diretório do projeto MSTest.
    * Execute o seguinte comando: dotnet test
    * Os testes serão executados e o resultado será exibido no terminal.
 
