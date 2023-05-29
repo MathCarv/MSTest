@@ -1,6 +1,6 @@
 ![MSTEST](https://github.com/MathCarv/MSTest/assets/96321313/931c7d4f-9a3a-41bf-8db9-c94e20753d8a)
 
-# MSTest - Calculadora
+# MSTest - Uma ferramenta poderosa para testes unitários
 Este projeto de amostra é um exemplo básico de como usar o MSTest para escrever e executar testes unitários em um aplicativo C#.
 
 # Requisitos
