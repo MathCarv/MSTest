@@ -1,4 +1,4 @@
-# MSTest - Calculadora
+## MSTest - Calculadora
 Este projeto de amostra é um exemplo básico de como usar o MSTest para escrever e executar testes unitários em um aplicativo C#.
 
 # Requisitos
