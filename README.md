@@ -9,7 +9,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de 
 
 # Configuração do Projeto
 
-1 > Clone o repositório do projeto MSTest para o seu ambiente local.
+> 1 Clone o repositório do projeto MSTest para o seu ambiente local.
 2 > Abra o Visual Studio ou Visual Studio Code.
 3 > No Visual Studio:
    * Selecione "Open a project or solution" (Abrir um projeto ou solução) e navegue até o diretório onde você clonou o repositório.
