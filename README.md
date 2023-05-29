@@ -12,11 +12,11 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de 
 1 - Clone o repositório do projeto MSTest para o seu ambiente local.
 2 - Abra o Visual Studio ou Visual Studio Code.
 3 - No Visual Studio:
-   • Selecione "Open a project or solution" (Abrir um projeto ou solução) e navegue até o diretório onde você clonou o repositório.
-   • Selecione o arquivo de solução (extensão .sln) e clique em "Open" (Abrir).
+   * Selecione "Open a project or solution" (Abrir um projeto ou solução) e navegue até o diretório onde você clonou o repositório.
+   * Selecione o arquivo de solução (extensão .sln) e clique em "Open" (Abrir).
 4 - No Visual Studio Code:
-   • Abra o diretório do projeto clonado através do comando "File" (Arquivo) -> "Open Folder" (Abrir Pasta).
-   • Selecione o diretório clonado e clique em "Open" (Abrir).
+   * Abra o diretório do projeto clonado através do comando "File" (Arquivo) -> "Open Folder" (Abrir Pasta).
+   * Selecione o diretório clonado e clique em "Open" (Abrir).
 5 - Aguarde até que o Visual Studio ou Visual Studio Code carregue o projeto e suas dependências.
 
 # Executando os Testes
