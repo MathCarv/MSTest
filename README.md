@@ -8,7 +8,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de 
 
 *  Visual Studio Code 
    * https://code.visualstudio.com/download
-* .NET Framework (versão 4.5 ou superior) 
+* .NET Framework (versão 7.0 ou superior) 
    * https://dotnet.microsoft.com/en-us/download/dotnet-framework
 
 # Configuração do Projeto
