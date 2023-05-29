@@ -6,8 +6,11 @@ Este projeto de amostra é um exemplo básico de como usar o MSTest para escreve
 # Requisitos
 Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de desenvolvimento:
 
-*  Visual Studio (versão 2012 ou superior) ou Visual Studio Code -> https://visualstudio.microsoft.com/pt-br/downloads/
-* .NET Framework (versão 4.5 ou superior) -> https://dotnet.microsoft.com/en-us/download/dotnet-framework
+*  Visual Studio (versão 2012 ou superior) ou Visual Studio Code 
+*  https://visualstudio.microsoft.com/pt-br/downloads/
+*  https://code.visualstudio.com/download
+* .NET Framework (versão 4.5 ou superior) 
+* https://dotnet.microsoft.com/en-us/download/dotnet-framework
 
 # Configuração do Projeto
 
