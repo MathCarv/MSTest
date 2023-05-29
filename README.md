@@ -29,14 +29,14 @@ O projeto MSTest contém uma classe de exemplo "Calculadora" com métodos simple
 Para executar os testes:
 
 > No Visual Studio:
-   • No Solution Explorer (Explorador de Soluções), clique com o botão direito do mouse no projeto MSTest.Tests e selecione "Run Tests" (Executar Testes).
-   • Os testes serão executados e o resultado será exibido na janela "Test Explorer" (Explorador de Testes).
+   * No Solution Explorer (Explorador de Soluções), clique com o botão direito do mouse no projeto MSTest.Tests e selecione "Run Tests" (Executar Testes).
+   * Os testes serão executados e o resultado será exibido na janela "Test Explorer" (Explorador de Testes).
  
 > No Visual Studio Code:
-   • Abra um terminal integrado no Visual Studio Code clicando em "View" (Exibir) -> "Terminal" (Terminal).
-   • No terminal, navegue até o diretório do projeto MSTest.Tests.
-   • Execute o seguinte comando: dotnet test
-   • Os testes serão executados e o resultado será exibido no terminal.
+   * Abra um terminal integrado no Visual Studio Code clicando em "View" (Exibir) -> "Terminal" (Terminal).
+   * No terminal, navegue até o diretório do projeto MSTest.Tests.
+   * Execute o seguinte comando: dotnet test
+   * Os testes serão executados e o resultado será exibido no terminal.
 
 # Adicionando Novos Testes
 Para adicionar novos testes ao projeto:
