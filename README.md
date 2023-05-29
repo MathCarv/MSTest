@@ -36,10 +36,14 @@ Para executar os testes:
 # Adicionando Novos Testes
 Para adicionar novos testes ao projeto:
 
->No Solution Explorer (Explorador de Soluções), clique com o botão direito do mouse no projeto MSTest.Tests.
+> No Solution Explorer (Explorador de Soluções), clique com o botão direito do mouse no projeto MSTest.Tests.
+
 > Selecione "Add" (Adicionar) -> "New Item" (Novo Item).
+
 > Selecione "Unit Test" (Teste Unitário) na lista de modelos de item.
+
 > Dê um nome ao novo arquivo de teste e clique em "Add" (Adicionar).
+
 > Escreva seus testes no novo arquivo de teste usando as estruturas e asserções fornecidas pelo MSTest.
 
 # Contribuindo
