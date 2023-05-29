@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
+    <StartupObject>CalculatorApp.Program</StartupObject>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -14,6 +15,7 @@
 
   <ItemGroup>
     <Compile Remove="**\*.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="Tests\**\*.cs" />
   </ItemGroup>
