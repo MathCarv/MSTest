@@ -30,8 +30,20 @@ jobs:
       - name: Executar testes
         run: dotnet test --logger "trx;LogFileName=testresults.trx"
 
-      - name: Fazer upload dos resultados dos testes
+      - name: Gerar relatório de teste
+        run: dotnet test --logger "trx;LogFileName=testresults.trx" --results-directory ./TestResults
+
+      - name: Empacotar software
+        run: dotnet publish --configuration Release --output ./PublishOutput
+
+      - name: Fazer upload do relatório de teste
         uses: actions/upload-artifact@v2
         with:
-          name: Resultados dos Testes
-          path: "**/testresults.trx"
+          name: Relatório de Teste
+          path: ./TestResults
+
+      - name: Fazer upload do pacote
+        uses: actions/upload-artifact@v2
+        with:
+          name: Pacote
+          path: ./PublishOutput
