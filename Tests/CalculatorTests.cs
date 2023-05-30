@@ -20,7 +20,7 @@ namespace CalculatorApp.Tests
             // Assert
             Assert.AreEqual(expected, result);
         }
-        /*
+        
         [TestMethod]
         public void TestAdditionFailed()
         {
@@ -33,9 +33,9 @@ namespace CalculatorApp.Tests
             double result = Calculator.Soma(num1, num2);
 
             // Assert
-            Assert.AreEqual(expected, result);
+            Assert.AreNotEqual(expected, result);
         }
-        */
+    
 
         [TestMethod]
         public void TestSubtractionPass()
