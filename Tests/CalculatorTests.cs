@@ -7,7 +7,7 @@ namespace CalculatorApp.Tests
     public class CalculatorTests
     {
         [TestMethod]
-        public void TestAddition()
+        public void TestAdditionPass()
         {
             // Arrange
             double num1 = 5;
@@ -22,7 +22,22 @@ namespace CalculatorApp.Tests
         }
 
         [TestMethod]
-        public void TestSubtraction()
+        public void TestAdditionFailed()
+        {
+            // Arrange
+            double num1 = 5;
+            double num2 = 10;
+            double expected = 20;
+
+            // Act
+            double result = Calculator.Soma(num1, num2);
+
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void TestSubtractionPass()
         {
             // Arrange
             double num1 = 10;
@@ -37,7 +52,22 @@ namespace CalculatorApp.Tests
         }
 
         [TestMethod]
-        public void TestMultiplication()
+        public void TestSubtractionFailed()
+        {
+            // Arrange
+            double num1 = 10;
+            double num2 = 5;
+            double expected = 3;
+
+            // Act
+            double result = Calculator.Subtracao(num1, num2);
+
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void TestMultiplicationPass()
         {
             // Arrange
             double num1 = 5;
@@ -50,14 +80,43 @@ namespace CalculatorApp.Tests
             // Assert
             Assert.AreEqual(expected, result);
         }
+        [TestMethod]
+        public void TestMultiplicationFailed()
+        {
+            // Arrange
+            double num1 = 5;
+            double num2 = 10;
+            double expected = 60;
+
+            // Act
+            double result = Calculator.Multiplicacao(num1, num2);
+
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
 
         [TestMethod]
-        public void TestDivision()
+        public void TestDivisionPass()
         {
             // Arrange
             double num1 = 10;
             double num2 = 5;
             double expected = 2;
+
+            // Act
+            double result = Calculator.Divisao(num1, num2);
+
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void TestDivisionFailed()
+        {
+            // Arrange
+            double num1 = 10;
+            double num2 = 5;
+            double expected = 4;
 
             // Act
             double result = Calculator.Divisao(num1, num2);
